@@ -1,28 +1,60 @@
 html, body {
-  height: 100%;
-  margin: 0;
-  font-size: 14px;
+    font-size: 20px;
 }
+
 body {
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  background: hsl(229, 30%, 44%);
-  color: #fff;
-  width: 100%;
-  display: table;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    background: hsl(229, 30%, 44%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 5em;
+    font-weight: 300;
 }
+
+h1 {
+    font-size: 2.6em;
+    line-height: 1.6em;
+}
+
+table {
+    margin: 3em 0;
+    font-size: 1.4em;
+}
+
 .tease {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  font-weight: 300;
-  font-size: 4rem;
+    font-size: 2em;
 }
+
 .tease strong {
-  font-weight: 600;
+    font-weight: 600;
 }
-@media screen and (max-width: 40rem) {
-  .tease {
-    font-size: 3rem;
-  }
+
+.tease table {
+    margin: auto;
+}
+
+a, a:active {
+    color: #DDD;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #EEE;
+    text-decoration: none;
+}
+
+a.btn {
+    text-decoration: none;
+    font-size: .9em;
+}
+
+footer {
+    color: hsl(230, 55%, 70%);
+    font-size: .8em;
+    padding-top: 5em;
+}
+
+footer a, footer a:hover {
+    color: hsl(230, 47%, 66%);
 }
