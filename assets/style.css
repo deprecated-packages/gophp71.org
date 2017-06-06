@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: hsl(229, 30%, 44%);
+  color: #fff;
+  width: 100%;
+  display: table;
+}
+.tease {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 300;
+  font-size: 4rem;
+}
+.tease strong {
+  font-weight: 600;
+}
+@media screen and (max-width: 40rem) {
+  .tease {
+    font-size: 3rem;
+  }
+}
