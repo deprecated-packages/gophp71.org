@@ -1,5 +1,5 @@
 html, body {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 body {
@@ -8,33 +8,22 @@ body {
     color: #fff;
     width: 100%;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 3em;
     font-weight: 300;
 }
 
 h1 {
+    font-weight: 200;
     font-size: 2.6em;
     line-height: 1.6em;
 }
 
 table {
-    margin: 3em 0;
+    margin: 2.5em 0;
     font-size: 1.4em;
 }
 
-.tease {
-    font-size: 2em;
-}
-
-.tease strong {
-    font-weight: 600;
-}
-
-.tease table {
-    margin: auto;
-}
-
-a, a:active {
+a, a:active, a:focus {
     color: #DDD;
     text-decoration: underline;
 }
@@ -45,6 +34,7 @@ a:hover {
 }
 
 a.btn {
+    color: #FFF;
     text-decoration: none;
     font-size: .9em;
 }
@@ -52,7 +42,8 @@ a.btn {
 footer {
     color: hsl(230, 55%, 70%);
     font-size: .8em;
-    padding-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 1em;
 }
 
 footer a, footer a:hover {
