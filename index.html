@@ -1,3 +1,5 @@
+---
+---
 <!-- inspired by https://github.com/gophp7/gophp7.github.io/edit/master/index.html -->
 <!DOCTYPE html>
 <html>
@@ -31,38 +33,18 @@
                             <th class="text-center">Project</th>
                             <th class="text-center">When</th>
                         </tr>
+                        {% for project in site.data.projects %}
                         <tr>
-                            <td><a href="http://sylius.org/blog/sylius-v1-0-0-beta-3-now-available">Sylius 1.0</a></td>
-                            <td>Late 2017</td>
+                            <td>
+                                <a href="{{ project.url }}">{{ project.name }}</a>
+                            </td>
+                            <td>
+                                {% if project.when_url %}<a href="{{ project.when_url }}">{% endif %}
+                                    {{ project.when }}
+                                {% if project.when_url %}</a>{% endif %}
+                            </td>
                         </tr>
-                        <tr>
-                            <td><a href="http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html">Doctrine</a></td>
-                            <td>July 2017</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/symfony/symfony/pull/22733">Symfony 4.0</a></td>
-                            <td><a href="https://symfony.com/roadmap?version=4.0#checker">Nov 2017</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://twitter.com/nettefw/status/827134885886324736">Nette 3.0</a></td>
-                            <td>~ 2017</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://framework.zend.com/blog/2017-06-06-zf-php-7-1.html">Zend Framework 4.0</a></td>
-                            <td><a href="https://github.com/TomasVotruba/gophp71.org/commit/92ca500c73ae5ac949a15acad47961838850d223#commitcomment-22438872">~ 2017</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/yiisoft/yii2/issues/11397">Yii Framework 2.1</a></td>
-                            <td>~ 2017</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/cakephp/cakephp/wiki/4.0-Roadmap#require-at-least-php-71">CakePHP 4.0</a></td>
-                            <td>Early 2018</td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://github.com/forkcms/forkcms/blob/master/UPGRADE_5.0.md#spoon-library-has-been-updated-to-300">Fork CMS 5</a></td>
-                            <td>August 2017</td>
-                        </tr>
+                        {% endfor %}
                     </table>
 
                     <br>
@@ -70,7 +52,7 @@
 
                     <p>Are you <strong>missing your favorite framework</strong> or <strong>package</strong>?</p>
                     <p>
-                        <a href="https://github.com/TomasVotruba/gophp71.org/edit/master/index.html" class="btn btn-success">
+                        <a href="https://github.com/TomasVotruba/gophp71.org/edit/master/_data/projects.yaml" class="btn btn-success">
                             ➕ &nbsp;ADD IT
                         </a>
                     </p>
