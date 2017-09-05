@@ -1,0 +1,33 @@
+- name: Sylius 1.0
+  url: http://sylius.org/blog/sylius-v1-0-0-beta-3-now-available
+  when: Late 2017
+
+- name: Doctrine
+  url: http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html
+  when: July 2017
+
+- name: Symfony 4.0
+  url: https://github.com/symfony/symfony/pull/22733
+  when: Nov 2017
+  when_url: https://symfony.com/roadmap?version=4.0#checker
+
+- name: Nette 3.0
+  url: https://twitter.com/nettefw/status/827134885886324736
+  when: ~ 2017
+
+- name: Zend Framework 4.0
+  url: https://framework.zend.com/blog/2017-06-06-zf-php-7-1.html
+  when: ~ 2017
+  when_url: https://github.com/TomasVotruba/gophp71.org/commit/92ca500c73ae5ac949a15acad47961838850d223#commitcomment-22438872
+
+- name: Yii Framework 2.1
+  url: https://github.com/yiisoft/yii2/issues/11397
+  when: ~ 2017
+
+- name: CakePHP 4.0
+  url: https://github.com/cakephp/cakephp/wiki/4.0-Roadmap#require-at-least-php-71
+  when: Early 2018
+
+- name: Fork CMS 5
+  url: https://github.com/forkcms/forkcms/blob/master/UPGRADE_5.0.md#spoon-library-has-been-updated-to-300
+  when: August 2017
