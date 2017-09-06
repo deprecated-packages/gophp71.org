@@ -31,3 +31,7 @@
 - name: Fork CMS 5
   url: https://github.com/forkcms/forkcms/blob/master/UPGRADE_5.0.md#spoon-library-has-been-updated-to-300
   when: August 2017
+
+- name: Spryker
+  url: https://academy.spryker.com/what_s_new/releases/release_notes_august_1_2017.html#announcements
+  when: Nov 2017
