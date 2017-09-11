@@ -1,6 +1,6 @@
 - name: Sylius 1.0
   url: http://sylius.org/blog/sylius-v1-0-0-beta-3-now-available
-  when: Late 2017
+  when: Sep 2017
 
 - name: Doctrine
   url: http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html
