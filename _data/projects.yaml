@@ -35,3 +35,7 @@
 - name: Spryker
   url: https://academy.spryker.com/what_s_new/releases/release_notes_august_1_2017.html#announcements
   when: Nov 2017
+  
+- name: Laravel 5.6
+  url: https://github.com/laravel/framework/pull/21995
+  when: 2018
