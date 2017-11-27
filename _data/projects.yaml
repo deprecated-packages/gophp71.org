@@ -15,13 +15,12 @@
   when: August 2017
   done: true
 
-
-# working on it - in master branch or in announcement
-
 - name: PHP-ML
   url: https://github.com/php-ai/php-ml/pull/150
   when: Nov 2017
-  done: false
+  done: true
+
+# working on it - in master branch or in announcement
 
 - name: Symfony 4.0
   url: https://github.com/symfony/symfony/pull/22733
