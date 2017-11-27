@@ -1,6 +1,9 @@
 ---
 ---
-<!-- inspired by https://github.com/gophp7/gophp7.github.io/edit/master/index.html -->
+<!-- inspired by:
+https://github.com/gophp7/gophp7.github.io/edit/master/index.html
+  https://www.garfieldtech.com/blog/go-php-5-go
+ -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,11 +22,11 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1>
-                        Go for <strong>PHP7.1</strong> as minimal requirement!
+                        Go for <strong>PHP7.1</strong> as minimal requirement
                         <br>
-                        <strong>They will...</strong>
+                        <strong>"United we stand, divided we fall"</strong>
                     </h1>
-                    
+
                     <p>
                         <a href="https://www.tomasvotruba.cz/blog/2017/06/05/go-php-71/">Why exactly PHP 7.1?</a>
                     </p>
@@ -32,6 +35,7 @@
                         <tr>
                             <th class="text-center">Project</th>
                             <th class="text-center">When</th>
+                            <th class="text-center">Tagged</th>
                         </tr>
                         {% for project in site.data.projects %}
                         <tr>
@@ -42,6 +46,13 @@
                                 {% if project.when_url %}<a href="{{ project.when_url }}">{% endif %}
                                     {{ project.when }}
                                 {% if project.when_url %}</a>{% endif %}
+                            </td>
+                            <td>
+                                {% if project.done %}
+                                    ✅
+                                {% else %}
+                                    ❌
+                                {% endif %}
                             </td>
                         </tr>
                         {% endfor %}
