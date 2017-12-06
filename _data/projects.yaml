@@ -25,8 +25,8 @@
 - name: Symfony 4.0
   url: https://github.com/symfony/symfony/pull/22733
   when: Nov 2017
-  when_url: https://symfony.com/roadmap?version=4.0#checker
-  done: false
+  when_url: http://symfony.com/blog/symfony-4-0-0-released
+  done: true
 
 - name: Nette 3.0
   url: https://twitter.com/nettefw/status/827134885886324736
