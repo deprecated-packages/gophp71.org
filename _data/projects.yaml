@@ -68,3 +68,8 @@
   url: https://github.com/bcit-ci/CodeIgniter4/commit/90a604c454aa9768ac83616c114e958a474f0309
   when: 2018
   done: false
+
+- name: UserFrosting 4.3
+  url: https://github.com/userfrosting/UserFrosting/wiki/Roadmap-for-UserFrosting-4.3#require-at-least-php-71
+  when: 2018
+  done: false
