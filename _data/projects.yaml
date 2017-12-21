@@ -63,3 +63,8 @@
   url: https://github.com/sebastianbergmann/phpunit/milestone/22
   when: February 2, 2018
   done: false
+  
+- name: CodeIgniter 4.0
+  url: https://github.com/bcit-ci/CodeIgniter4/commit/90a604c454aa9768ac83616c114e958a474f0309
+  when: 2018
+  done: false
