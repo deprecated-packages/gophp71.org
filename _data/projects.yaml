@@ -63,3 +63,8 @@
   url: https://github.com/sebastianbergmann/phpunit/milestone/22
   when: February 2, 2018
   done: false
+  
+- name: UserFrosting 4.3
+  url: https://github.com/userfrosting/UserFrosting/wiki/Roadmap-for-UserFrosting-4.3#require-at-least-php-71
+  when: 2018
+  done: false
