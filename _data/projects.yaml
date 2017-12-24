@@ -73,3 +73,8 @@
   url: https://github.com/userfrosting/UserFrosting/wiki/Roadmap-for-UserFrosting-4.3#require-at-least-php-71
   when: 2018
   done: false
+
+- name: phpMyAdmin 5.0
+  url: https://github.com/phpmyadmin/phpmyadmin/wiki/2017-12_Meeting#meeting-3
+  when: 2019
+  done: false
