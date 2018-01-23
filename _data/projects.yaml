@@ -80,5 +80,5 @@
   done: false
 
 - name: Shopsys Framework
-  when: January 2018
-  done: true
+  when: Fall 2018
+  done: false
