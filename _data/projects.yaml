@@ -78,3 +78,7 @@
   url: https://github.com/phpmyadmin/phpmyadmin/wiki/2017-12_Meeting#meeting-3
   when: ~ 2019
   done: false
+
+- name: Shopsys Framework
+  when: January 2018
+  done: true
