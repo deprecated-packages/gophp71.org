@@ -80,5 +80,6 @@
   done: false
 
 - name: Shopsys Framework
+  url: https://www.shopsys-framework.com/
   when: Fall 2018
   done: false
