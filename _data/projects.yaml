@@ -30,7 +30,12 @@
   url: https://laravel.com/docs/5.6/releases
   when: February 7, 2018
   done: true
-  
+
+- name: PHPUnit 7.0
+  url: https://github.com/sebastianbergmann/phpunit/milestone/22
+  when: February 2, 2018
+  done: true
+
 # working on it - in master branch or in announcement
 
 - name: Nette 3.0
@@ -58,11 +63,7 @@
   url: https://academy.spryker.com/what_s_new/releases/release_notes_august_1_2017.html#announcements
   when: ~ 2018
   done: false
-  
-- name: PHPUnit 7.0
-  url: https://github.com/sebastianbergmann/phpunit/milestone/22
-  when: February 2, 2018
-  done: false
+ 
   
 - name: CodeIgniter 4.0
   url: https://github.com/bcit-ci/CodeIgniter4/commit/90a604c454aa9768ac83616c114e958a474f0309
