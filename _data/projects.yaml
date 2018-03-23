@@ -36,6 +36,11 @@
   when: February 2, 2018
   done: true
 
+- name: Zend Expressive 3.0
+  url: https://github.com/zendframework/zend-expressive/releases/tag/3.0.0
+  when: March 15, 2018
+  done: true
+  
 # working on it - in master branch or in announcement
 
 - name: Nette 3.0
