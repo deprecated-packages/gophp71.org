@@ -1,7 +1,7 @@
 # already released tagged version
 
 - name: Shopsys Framework
-  url: https://www.shopsys-framework.com/
+  url: https://www.shopsys.com/
   when: April 2018
   done: true
 
