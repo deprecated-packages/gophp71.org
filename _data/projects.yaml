@@ -1,5 +1,10 @@
 # already released tagged version
 
+- name: Shopsys Framework
+  url: https://www.shopsys-framework.com/
+  when: April 2018
+  done: true
+
 - name: Doctrine
   url: http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html
   when: July 2017
@@ -83,9 +88,4 @@
 - name: phpMyAdmin 5.0
   url: https://github.com/phpmyadmin/phpmyadmin/wiki/2017-12_Meeting#meeting-3
   when: ~ 2019
-  done: false
-
-- name: Shopsys Framework
-  url: https://www.shopsys-framework.com/
-  when: Fall 2018
   done: false
