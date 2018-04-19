@@ -1,18 +1,34 @@
 # already released tagged version
 
-- name: Shopsys Framework
-  url: https://www.shopsys.com/
-  when: April 2018
+- name: Zend Expressive 3.0
+  url: https://github.com/zendframework/zend-expressive/releases/tag/3.0.0
+  when: March 2018
+  done: true
+  
+- name: PHPUnit 7.0
+  url: https://github.com/sebastianbergmann/phpunit/milestone/22
+  when: February 2018
   done: true
 
-- name: Doctrine
-  url: http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html
-  when: July 2017
+- name: Laravel 5.6
+  url: https://laravel.com/docs/5.6/releases
+  when: February 2018
   done: true
 
+- name: PHP-ML
+  url: https://github.com/php-ai/php-ml/pull/150
+  when: November 2017
+  done: true
+
+- name: Symfony 4.0
+  url: https://github.com/symfony/symfony/pull/22733
+  when: November 2017
+  when_url: http://symfony.com/blog/symfony-4-0-0-released
+  done: true
+  
 - name: Sylius
   url: http://sylius.org/blog/sylius-v1-0-0-beta-3-now-available
-  when: Sep 2017
+  when: September 2017
   done: true
 
 - name: Fork CMS 5
@@ -20,33 +36,12 @@
   when: August 2017
   done: true
 
-- name: PHP-ML
-  url: https://github.com/php-ai/php-ml/pull/150
-  when: Nov 2017
-  done: true
-
-- name: Symfony 4.0
-  url: https://github.com/symfony/symfony/pull/22733
-  when: Nov 2017
-  when_url: http://symfony.com/blog/symfony-4-0-0-released
+- name: Doctrine
+  url: http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html
+  when: July 2017
   done: true
   
-- name: Laravel 5.6
-  url: https://laravel.com/docs/5.6/releases
-  when: February 7, 2018
-  done: true
-
-- name: PHPUnit 7.0
-  url: https://github.com/sebastianbergmann/phpunit/milestone/22
-  when: February 2, 2018
-  done: true
-
-- name: Zend Expressive 3.0
-  url: https://github.com/zendframework/zend-expressive/releases/tag/3.0.0
-  when: March 15, 2018
-  done: true
-  
-# working on it - in master branch or in announcement
+# working on it - in master branch or in announcement; needs to be tagged
 
 - name: Nette 3.0
   url: https://twitter.com/nettefw/status/827134885886324736
@@ -73,7 +68,11 @@
   url: https://academy.spryker.com/what_s_new/releases/release_notes_august_1_2017.html#announcements
   when: ~ 2018
   done: false
- 
+
+- name: Shopsys Framework
+  url: https://www.shopsys.com/
+  when: ~ Fall 2018
+  done: false
   
 - name: CodeIgniter 4.0
   url: https://github.com/bcit-ci/CodeIgniter4/commit/90a604c454aa9768ac83616c114e958a474f0309
