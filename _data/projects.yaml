@@ -64,11 +64,6 @@
   when: ~ 2018
   done: false
 
-- name: Spryker
-  url: https://academy.spryker.com/what_s_new/releases/release_notes_august_1_2017.html#announcements
-  when: ~ 2018
-  done: false
-
 - name: Shopsys Framework
   url: https://www.shopsys.com/
   when: ~ Fall 2018
