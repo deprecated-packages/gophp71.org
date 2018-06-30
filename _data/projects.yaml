@@ -1,5 +1,10 @@
 # already released tagged version
 
+- name: PHPStan
+  url: https://github.com/phpstan/phpstan/releases/tag/0.10
+  when: June 2018
+  done: true
+
 - name: Zend Expressive 3.0
   url: https://github.com/zendframework/zend-expressive/releases/tag/3.0.0
   when: March 2018
