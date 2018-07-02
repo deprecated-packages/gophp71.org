@@ -7,7 +7,7 @@
 
 - name: Nettrine
   url: https://github.com/nettrine/
-  when: May
+  when: May 2018
   done: true
   
 - name: Zend Expressive 3.0
