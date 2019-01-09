@@ -1,5 +1,7 @@
 {
     "require": {
-        "symplify/statie": "^5.3"
-    }
+        "symplify/statie": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
