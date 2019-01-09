@@ -1,0 +1,47 @@
+parameters:
+    projects:
+        - name: PHPStan
+          url: https://github.com/phpstan/phpstan/releases/tag/0.10
+          when: June 2018
+
+        - name: Nettrine
+          url: https://github.com/nettrine/
+          when: May 2018
+
+        - name: PHPUnit 7.0
+          url: https://github.com/sebastianbergmann/phpunit/milestone/22
+          when: February 2018
+
+        - name: Laravel 5.6
+          url: https://laravel.com/docs/5.6/releases
+          when: February 2018
+
+        - name: PHP-ML
+          url: https://github.com/php-ai/php-ml/pull/150
+          when: November 2017
+          done: true
+
+        - name: Symfony 4.0
+          url: https://github.com/symfony/symfony/pull/22733
+          when: November 2017
+          when_url: http://symfony.com/blog/symfony-4-0-0-released
+
+        - name: Sylius
+          url: http://sylius.org/blog/sylius-v1-0-0-beta-3-now-available
+          when: September 2017
+
+        - name: Fork CMS 5
+          url: https://github.com/forkcms/forkcms/blob/master/UPGRADE_5.0.md#spoon-library-has-been-updated-to-300
+          when: August 2017
+
+        - name: Doctrine
+          url: http://doctrine-project.org/2017/07/25/php-7.1-requirement-and-composer.html
+          when: July 2017
+
+        - name: Contributte
+          url: https://github.com/contributte/
+          when: ~ 2018
+
+        - name: Zend Framework
+          url: https://framework.zend.com/blog/2017-06-06-zf-php-7-1.html
+          when: ~ 2018

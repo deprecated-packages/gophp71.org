@@ -4,7 +4,7 @@ Website to promote and inform about PHP 7.1 as minimal requirement in PHP packag
 
 - [Visit goPHP71.org](https://gophp71.org/)
 - [Read about the idea](https://www.tomasvotruba.cz/blog/2017/06/05/go-php-71/) and [reflection 6 months later](https://www.tomasvotruba.cz/blog/2017/11/27/united-php-71-adoption-6-months-later/)
-- [Add your project](https://github.com/TomasVotruba/gophp71.org/edit/master/_data/projects.yaml)
+- [Add your project](https://github.com/TomasVotruba/gophp71.org/edit/master/source/_data/projects.yaml)
 
 ### Inspiration
 

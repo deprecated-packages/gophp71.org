@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symplify/statie": "dev-master"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

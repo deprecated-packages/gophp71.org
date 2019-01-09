@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Go PHP 7.1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="/assets/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>
+                        Go for <strong>PHP7.1</strong> as minimal requirement
+                        <br>
+                        <strong>"United we stand, divided we fall"</strong>
+                    </h1>
+
+                    <p>
+                        <a href="https://www.tomasvotruba.cz/blog/2017/06/05/go-php-71/">Why exactly PHP 7.1?</a>
+                    </p>
+
+                    <br>
+
+                    <p>
+                        Welcome packages that have <strong>PHP 7.1</strong> as min requirement are <strong>tagged with stable version</strong>
+                    </p>
+
+                    <p class="mt-4 mb-2">
+                        <a href="https://github.com/TomasVotruba/gophp71.org/edit/master/source/_data/projects.yaml" class="btn btn-success">Add Yours</a>
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <table class="table" style="max-width: 35em; margin:auto;">
+                        <tr>
+                            <th class="text-center">Project</th>
+                            <th class="text-center">When</th>
+                        </tr>
+                        {% for project in projects %}
+                            <tr>
+                                <td>
+                                    <a href="{{ project.url }}">{{ project.name }}</a>
+                                </td>
+                                <td>
+                                    {% if project.when_url %}<a href="{{ project.when_url }}">{% endif %}
+                                        {{ project.when }}
+                                        {% if project.when_url %}</a>{% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+
+                    <footer>
+                        Made with ❤️ on️ <a href="https://www.statie.org">Statie</a>
+                        <br>
+                        Thanks for inspiration at <a href="http://gophp7.org/">goPHP7.org</a>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
