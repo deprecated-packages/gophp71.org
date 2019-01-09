@@ -40,10 +40,10 @@ a.btn {
 }
 
 footer {
-    color: hsl(230, 55%, 70%);
-    font-size: .8em;
+    color: hsl(230, 81%, 77%);
     padding-top: 3em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
+    line-height: 2em;
 }
 
 footer a, footer a:hover {
