@@ -32,9 +32,8 @@
                     <tr>
                         <th class="text-center">Project</th>
                         <th class="text-center">When</th>
-                        <th class="text-center">Tagged</th>
                     </tr>
-                    {% for project in site.data.projects %}
+                    {% for project in projects %}
                         <tr>
                             <td>
                                 <a href="{{ project.url }}">{{ project.name }}</a>
@@ -43,13 +42,6 @@
                                 {% if project.when_url %}<a href="{{ project.when_url }}">{% endif %}
                                     {{ project.when }}
                                     {% if project.when_url %}</a>{% endif %}
-                            </td>
-                            <td>
-                                {% if project.done %}
-                                    ✅
-                                {% else %}
-                                    ❌
-                                {% endif %}
                             </td>
                         </tr>
                     {% endfor %}
