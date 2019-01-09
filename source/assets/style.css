@@ -1,5 +1,5 @@
 html, body {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 body {
@@ -14,13 +14,13 @@ body {
 
 h1 {
     font-weight: 200;
-    font-size: 2.6em;
+    font-size: 2.5em;
     line-height: 1.6em;
 }
 
 table {
     margin: 2.5em 0;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 a, a:active, a:focus {
@@ -34,9 +34,7 @@ a:hover {
 }
 
 a.btn {
-    color: #FFF;
     text-decoration: none;
-    font-size: .9em;
 }
 
 footer {
