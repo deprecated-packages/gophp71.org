@@ -1,0 +1,49 @@
+html, body {
+    font-size: 19px;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    background: hsl(229, 30%, 44%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 3em;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 2.5em;
+    line-height: 1.6em;
+}
+
+table {
+    margin: 2.5em 0;
+    font-size: 1.3em;
+}
+
+a, a:active, a:focus {
+    color: #DDD;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #EEE;
+    text-decoration: none;
+}
+
+a.btn {
+    text-decoration: none;
+}
+
+footer {
+    color: hsl(230, 81%, 77%);
+    padding-top: 3em;
+    padding-bottom: 3em;
+    line-height: 2em;
+}
+
+footer a, footer a:hover {
+    color: hsl(230, 47%, 66%);
+}
